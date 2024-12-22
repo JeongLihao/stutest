@@ -1,0 +1,25 @@
+
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>图书名称</th>
+            <th>图书价格</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.BookName</td>
+                <td>@item.Mach</td>
+                <td>
+                    <a asp-action="Delete">删除</a>
+                    <a asp-action="Revise">编辑</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

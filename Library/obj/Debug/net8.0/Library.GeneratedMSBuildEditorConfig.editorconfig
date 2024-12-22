@@ -34,8 +34,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/github/stutest/Library/Views/Library/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxBZGQuY3NodG1s
+[F:/github/stutest/Library/Views/Library/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/github/stutest/Library/Views/Library/Delete.cshtml]

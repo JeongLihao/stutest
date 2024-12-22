@@ -1,0 +1,8 @@
+@model Library.Dto.LibraryCreateDto;
+
+<form asp-action="Create" method="post">
+    <label for="">书本名称：<input asp-for="BookName"></label><br>
+    <label for="">书本价格：<input asp-for="Mach"></label><br>
+    <input type="submit" value="保存"><br>
+    <a asp-action="Index">取消保存</a>
+</form>

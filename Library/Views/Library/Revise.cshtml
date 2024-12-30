@@ -1,1 +1,8 @@
-修改
+@model Book;
+
+<form asp-action="Revise" method="post">
+    <label for="">书本名称：<input asp-for="BookName"></label><br>
+    <label for="">书本价格：<input asp-for="Mach"></label><br>
+    <input type="submit" value="确认修改"><br>
+    <a asp-action="Index">取消修改</a>
+</form>

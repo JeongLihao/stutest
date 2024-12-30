@@ -1,0 +1,15 @@
+@model Library.Dto.BookTypeCreateDto;
+
+<form asp-action="Create" method="post">
+<table>
+    <tr>
+        <td>图书类型</td>
+        <td><label for=""><input asp-for="BookType"></label></td>
+    </tr>
+    <tr>
+        <td><input type="submit" value="确认添加"></td>
+        <td><a asp-action="Index">取消添加</a></td>
+    </tr>
+</table>
+</form>
+

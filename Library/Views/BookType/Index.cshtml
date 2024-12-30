@@ -1,4 +1,4 @@
-@model List<Book>;
+@model List<BookType>;
 <div>
    <a asp-action="Create">新增</a>
 </div>
@@ -7,8 +7,7 @@
     <thead>
         <tr>
             <th>Id</th>
-            <th>图书名称</th>
-            <th>图书价格</th>
+            <th>图书类别</th>
             <th>操作</th>
         </tr>
     </thead>
@@ -17,8 +16,7 @@
         {
             <tr>
                 <td>@item.Id</td>
-                <td>@item.BookName</td>
-                <td>@item.Mach</td>
+                <td>@item.BookTypes</td>
                 <td>
                     <a asp-action="Delete" asp-route-id="@item.Id">删除</a>
                     <a asp-action="Revise" asp-route-id="@item.Id">编辑</a>
